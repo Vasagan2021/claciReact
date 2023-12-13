@@ -12,6 +12,7 @@ const Calculator = ({value, setValue }) => {
                   value={value}
                   placeholder='0'
                   onChange={(e)=>setValue(e.target.value)}
+                  
                 />
                 </div>
                 <div>
